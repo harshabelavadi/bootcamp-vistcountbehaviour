@@ -3,7 +3,7 @@
 Scenario: Show patient visits during working days and holidays
 
   Given: Person visits the hospital on a particular day (working or holiday),
-  server is active, visitor information is stored in database.
+  server is active, visitor information gets stored in database.
   When: Person visiting hospital is a patient.
   Then: Displays patient visits with date and time.
 
