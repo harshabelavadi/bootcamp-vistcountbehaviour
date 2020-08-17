@@ -5,7 +5,7 @@ Scenario: Report visitor trends during a week of operation
   Given: Record of people visiting hospital in a week,
   server is active.
   When: Person is a visitor.
-  Then: Display visting trend of that person for that week.
+  Then: Display visiting trend of that person for that week.
 
 Scenario: Alert when seating capacity is full
 
