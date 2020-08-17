@@ -10,10 +10,10 @@ Scenario: Show patient visits during working days and holidays
 Scenario: Compute parking slots to reserve for visiting specialists
 
   Given: Person visits the hospital,
-  server is active, visitor information is stored in database,
+  server is active, visitor information gets stored in database,
   visitor has a car.
   When: Person is a visiting specialist,
   parking system collects the specialist data,
   parking slots are available.
-  Then: Reservation of parking slot is done for that specialist,
+  Then: Parking slot reserved for that specialist,
   number of available parking slots updated.
